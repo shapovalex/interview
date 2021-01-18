@@ -2,10 +2,12 @@ package com.example.task3;
 
 import com.example.task3.model.Row;
 import com.example.task3.model.Table;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
 
+@Service
 public class TableService {
     private RowService rowService;
 

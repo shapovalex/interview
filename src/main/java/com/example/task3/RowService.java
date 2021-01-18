@@ -1,9 +1,11 @@
 package com.example.task3;
 
 import com.example.task3.model.Row;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
+@Service
 public class RowService {
     private TableService tableService;
 
