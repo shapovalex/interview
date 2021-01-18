@@ -21,7 +21,6 @@ class BusinessLogicTest {
     }
 
     @Test
-
     void test3() {
         BusinessLogic businessLogic = new BusinessLogic();
         businessLogic.moveObject(6, 9);
